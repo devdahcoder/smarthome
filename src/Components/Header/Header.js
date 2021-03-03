@@ -8,7 +8,13 @@ export const Header = () => {
     return (
         <header>
             <div>
-
+                <div className="logo-pulse">
+                    <p>H</p>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
 
 
@@ -42,7 +48,7 @@ export const Header = () => {
                     </span>
 
                     <div>
-                        <p>Adele Alex <span><button><div><img src={DownArrow} alt=""/></div></button></span></p>
+                        <p>Adele Alex 😎  <span><button><div><img src={DownArrow} alt=""/></div></button></span></p>
                     </div>
                 </div>
             </div>
