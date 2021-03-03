@@ -1,9 +1,43 @@
 $main-bgColor: #121220;
 
+
+
+@mixin button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #000;
+    align-items: stretch;
+}
+
+@mixin svg-btn {
+    align-items: center;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    outline: none;
+}
+
+@mixin svg-container {
+    cursor: pointer;
+    border: 0 solid #000;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 30px;
 
     .logo-pulse {
         position: relative;
@@ -15,6 +49,7 @@ header {
         align-items: center;
         justify-content: center;
         text-align: center;
+        // margin-right: 100px;
         
 
         p {
@@ -57,6 +92,115 @@ header {
             100% {
                 transform: scale(2);
                 opacity: 0;
+            }
+        }
+    }
+
+    .header-form-display {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        color: #ffffff;
+        width: 600px;
+
+        .label {
+            display: flex;
+            align-items: center;
+            border-radius: 13px;
+            border: solid 1px #26243f;
+            background: #151423;
+            box-shadow: 6px 6px 12px #121120;
+            box-shadow: inset 0px 0px 3px #202124;
+            box-shadow: -5px -5px 12px #232239;
+            position: relative;
+            padding-left: 15px;
+            width: 100%;
+
+            .search-icon-container {
+                @include button-container();
+                button {
+                    @include svg-btn();
+                    padding: 10px 5px;
+
+                    .svg-container {
+                        @include svg-container();
+                    }
+                }
+            }
+
+            input {
+                width: 100%;
+                height: 50px;
+                background: #151423;
+                border: 0px solid #000;
+                outline: none;
+                padding: 0 10px;
+                border-radius: 13px;
+                font-size: 18px;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .header-user-display {
+        display: flex;
+        align-items: center;
+
+        .user-btn-display {
+            @include button-container();
+            margin-right: 20px;
+
+            button {
+                @include svg-btn();
+                border-radius: 10.53px;
+                border: solid 1.0526316px #26243f;
+                background: #151423;
+                box-shadow: 6px 6px 13px #121120;
+                box-shadow: inset 0px 0px 3px #202124;
+                box-shadow: -5px -5px 13px #232239;
+                padding: 5px;
+
+                .svg-container {
+                    @include svg-container();
+                }
+            }
+        }
+
+
+        .main-user-detail {
+            display: flex;
+            align-items: center;
+
+            .user-image-container {
+                display: block;
+                overflow: hidden;
+                border-radius: 50%;
+                width: 45px;
+                height: 45px;
+                background-color: rgba(var(--b3f,250,250,250),1);
+                margin-right: 12px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .user-name-container {
+                color: #ffffff;
+                font-size: 18px;
+                .header-drop-down {
+                    margin-left: 5px;
+                    button {
+                        background: 0 0;
+                        border: 0;
+                        cursor: pointer;
+                        padding: 0;
+                        outline: none;
+                    }
+                }
             }
         }
     }
