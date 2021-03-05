@@ -4,9 +4,11 @@ import "./dropdownitem.css"
 
 const DropDownItem = ({option}) => {
     return (
-        <>
-            <option className="option" value={option.value}>{option.value}</option>
-        </>
+        <li className="drop-down-item-li">
+            <div>
+                {option.value}
+            </div>
+        </li>
     )
 }
 

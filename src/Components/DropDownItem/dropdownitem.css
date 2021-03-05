@@ -1,7 +1,10 @@
-.option {
-  color: #ffffff;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.13px;
+.drop-down-item-li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.drop-down-item-li:hover {
+  background-color: grey;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=dropdownitem.css.map */
