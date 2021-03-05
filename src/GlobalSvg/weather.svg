@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="25px" height="20px" viewbox="0 0 25 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0.77931714" y1="0.05044907" x2="0.074021265" y2="1.0358369" id="gradient_1">
+      <stop offset="0" stop-color="#007FF4" />
+      <stop offset="1" stop-color="#0081F5" />
+    </linearGradient>
+    <path d="M17.3906 8L17.3086 8L17.3086 6.31818C17.3086 2.83455 14.7513 0 11.6074 0C8.46357 0 5.90625 2.83455 5.90625 6.31818L5.90625 6.90909L4.10156 6.90909C1.83635 6.90909 0 8.94418 0 11.4545C0 13.9649 1.83635 16 4.10156 16L17.3906 16C19.384 16 21 14.2091 21 12C21 9.79086 19.384 8 17.3906 8Z" transform="translate(2 2)" id="path_1" />
+  </defs>
+  <g id="Path">
+    <use xlink:href="#path_1" fill="none" stroke="url(#gradient_1)" stroke-width="4" />
+    <use xlink:href="#path_1" fill="none" stroke="#FFFFFF" stroke-width="1.2" />
+  </g>
+</svg>

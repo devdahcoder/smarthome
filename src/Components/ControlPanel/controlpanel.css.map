@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,WAAW,EAAE,KAAK;EAClB,OAAO,EAAE,IAAI;EAEb,cAAc,EAAE,GAAG;CACtB",
+    "sources": [
+        "controlpanel.scss"
+    ],
+    "names": [],
+    "file": "controlpanel.css"
+}

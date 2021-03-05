@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="87px" height="181px" viewbox="0 0 87 181" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="objectBoundingBox" cx="85.97888%" cy="7.194718%" fx="85.97888%" fy="7.194718%" r="155.62589%" gradientTransform="translate(0.85978884,0.07194718),scale(1,0.6156704),rotate(120.29439),scale(1,0),translate(-0.85978884,-0.07194718)" id="gradient_1">
+      <stop offset="0%" stop-color="#2DA164" />
+      <stop offset="100%" stop-color="#1E864E" />
+    </radialGradient>
+    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient_2">
+      <stop offset="0" stop-color="#FFC982" />
+      <stop offset="1" stop-color="#FF8532" />
+    </linearGradient>
+  </defs>
+  <g id="Group-13" transform="matrix(-1 0 0 1 100.79999 0.80000305)">
+    <g id="Group" transform="translate(36 52)">
+      <path d="M57.735 53.621L57.735 53.621C57.735 53.621 57.735 53.5081 57.735 53.621C57.6213 53.3952 57.5077 53.2823 57.394 53.1694C50.1203 43.687 52.3933 29.802 53.0753 26.7541C53.0753 26.5283 53.1889 26.4154 53.1889 26.1896C53.1889 26.1896 53.1889 26.0767 53.1889 26.0767L53.1889 26.0767C53.4162 24.7221 53.5299 23.3675 53.5299 22.0128C53.5299 9.93399 43.6422 0 31.3678 0C19.2071 0 9.20577 9.82111 9.20577 22.0128C9.20577 23.3675 9.31942 24.7221 9.66038 26.0767L9.66038 26.0767C9.66038 26.0767 9.66038 26.1896 9.66038 26.1896C9.66038 26.4154 9.77403 26.5283 9.77403 26.7541C10.4559 29.9149 12.6153 43.7999 5.45527 53.1694C5.34162 53.2823 5.34162 53.3952 5.22797 53.5081C5.22797 53.5081 5.22797 53.5081 5.22797 53.621L5.22797 53.621C1.93208 58.588 0 64.571 0 71.0055C0 88.2771 14.0928 102.275 31.4815 102.275C48.8701 102.275 62.9629 88.2771 62.9629 71.0055C63.0766 64.571 61.1445 58.588 57.735 53.621Z" transform="translate(0.454606 0.7902041)" id="Path" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+      <g id="Group" transform="translate(14.774694 25.963848)">
+        <path d="M0.941176 0L0.941176 104.756" transform="translate(16.788458 0.22577259)" id="Path" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" />
+        <path d="M0 0L16.8204 26.4154" transform="translate(0.909212 32.39837)" id="Path" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" />
+        <path d="M11.2515 0L0 14.6752" transform="translate(17.729633 15.23965)" id="Path" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" />
+      </g>
+    </g>
+    <g id="Group-Copy">
+      <path d="M57.735 53.3889L57.735 53.3889C57.735 53.3889 57.735 53.2765 57.735 53.3889C57.6213 53.1641 57.5077 53.0517 57.394 52.9393C50.1203 43.4979 52.3933 29.673 53.0753 26.6382C53.0753 26.4134 53.1889 26.301 53.1889 26.0762C53.1889 26.0762 53.1889 25.9638 53.1889 25.9638L53.1889 25.9638C53.4162 24.6151 53.5299 23.2663 53.5299 21.9175C53.5299 9.89099 43.6422 0 31.3678 0C19.2071 0 9.20577 9.77859 9.20577 21.9175C9.20577 23.2663 9.31942 24.6151 9.66038 25.9638L9.66038 25.9638C9.66038 25.9638 9.66038 26.0762 9.66038 26.0762C9.66038 26.301 9.77403 26.4134 9.77403 26.6382C10.4559 29.7854 12.6153 43.6103 5.45527 52.9393C5.34162 53.0517 5.34162 53.1641 5.22797 53.2765C5.22797 53.2765 5.22797 53.2765 5.22797 53.3889L5.22797 53.3889C1.93208 58.3344 0 64.2914 0 70.6981C0 87.8949 14.0928 101.832 31.4815 101.832C48.8701 101.832 62.9629 87.8949 62.9629 70.6981C63.0766 64.2914 61.1445 58.3344 57.735 53.3889Z" transform="translate(0.454606 0.7867833)" id="Path" fill="url(#gradient_2)" fill-rule="evenodd" stroke="none" />
+      <g id="Group" transform="translate(14.774694 25.85145)">
+        <path d="M0.941176 0L0.941176 156.797" transform="translate(16.788458 0.22479522)" id="Path" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" />
+        <path d="M0 0L16.8204 26.301" transform="translate(0.909212 32.258114)" id="Path" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" />
+        <path d="M11.2515 0L0 14.6117" transform="translate(17.729633 15.173677)" id="Path" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>

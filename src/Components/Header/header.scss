@@ -163,6 +163,18 @@ header {
 
                 .svg-container {
                     @include svg-container();
+                    position: relative;
+
+                    .notification-dot {
+                        position: absolute;
+                        top: 4px;
+                        right: 4px;
+                        z-index: 1;
+                        width: 6px;
+                        height: 6px;
+                        background-color: red;
+                        border-radius: 50%;
+                    }
                 }
             }
         }

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,OAAO;EAEd,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,MAAM;CACzB",
+    "sources": [
+        "dropdownitem.scss"
+    ],
+    "names": [],
+    "file": "dropdownitem.css"
+}

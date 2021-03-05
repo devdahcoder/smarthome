@@ -47,6 +47,9 @@ export const Header = () => {
                     <button>
                         <div className="svg-container">
                             <img src={Notification} alt=""/>
+
+                            <div className="notification-dot">
+                            </div>
                         </div>
                     </button>
                 </div>

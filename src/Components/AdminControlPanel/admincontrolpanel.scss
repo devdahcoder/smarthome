@@ -1,0 +1,30 @@
+.admin-panel-container {
+    width: 100%;
+    flex-wrap: 1;
+    .admin-panel-display {
+        display: flex;
+        // align-items: center;
+        flex-direction: column;
+
+        .current-user-container {
+            padding: 1.5em;
+            border: solid 1px #26243f;
+            border-radius: 20px;
+            background: #151423;
+            box-shadow: 6px 6px 12px #121120;
+            box-shadow: inset 0px 0px 3px #202124;
+            box-shadow: -5px -5px 12px #232239;
+            background-image: url("../../GlobalSvg/tree.svg"), url("../../GlobalSvg/bottomcloud.svg"), url("../../GlobalSvg/leftcloud.svg");
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-size: 50px, 400px, 100px;
+            background-position: bottom right, bottom right, bottom right;
+
+            .user-display {
+                background-image: url("../../GlobalSvg/leaf.svg"), url("../../GlobalSvg/firsttopcloud.svg"), url("../../GlobalSvg/sectopcloud.svg");
+                background-repeat: no-repeat, no-repeat, no-repeat;
+                background-size: contain, 50px, 50px;
+                background-position: right center, 300px top, right top;
+            }
+        }
+    }
+}

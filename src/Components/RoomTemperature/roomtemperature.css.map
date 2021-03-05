@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "roomtemperature.scss"
+    ],
+    "names": [],
+    "file": "roomtemperature.css"
+}

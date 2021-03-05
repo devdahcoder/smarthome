@@ -254,6 +254,18 @@ header .header-user-display .user-btn-display button .svg-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+header .header-user-display .user-btn-display button .svg-container .notification-dot {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  z-index: 1;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
 }
 
 header .header-user-display .main-user-detail {

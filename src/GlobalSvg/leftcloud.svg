@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="189px" height="104px" viewbox="0 0 189 104" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="objectBoundingBox" cx="85.97888%" cy="7.194718%" fx="85.97888%" fy="7.194718%" r="62.487423%" gradientTransform="translate(0.85978884,0.07194718),scale(0.7424598,1),rotate(136.76262),scale(1,0),translate(-0.85978884,-0.07194718)" id="gradient_1">
+      <stop offset="0%" stop-color="#1E1C37" />
+      <stop offset="100%" stop-color="#26243F" />
+    </radialGradient>
+  </defs>
+  <path d="M-1.70205e-28 131.416C-1.70205e-28 131.416 102.926 170.049 159.193 156.818C186.455 150.408 236.311 -2.30728 206.63 0.0264752C202.262 0.36989 196.646 1.3443 189.403 3.23709C155.606 12.0689 132.079 5.87293 104.032 34.2381C96.9984 41.3517 97.5965 63.7449 58.0039 73.5333C15.2358 84.1068 -1.70205e-28 131.416 -1.70205e-28 131.416Z" transform="matrix(0.9975641 -0.06975647 0.06975647 0.9975641 0 15.050659)" id="Path-5-Copy" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+</svg>
